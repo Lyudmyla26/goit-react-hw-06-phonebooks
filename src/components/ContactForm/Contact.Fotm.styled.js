@@ -13,6 +13,18 @@ export const Form = styled(FormikForm)`
   width: 500px;
 `;
 
+export const FormField = styled.label`
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  max-width: 100%;
+  width: 500px;
+
+  color: ${props => props.theme.colors.primary};
+  text-shadow: ${props => props.theme.shadows.textShadow};
+`;
+
 export const LabelWrapper = styled.div`
   display: flex;
   align-items: center;
