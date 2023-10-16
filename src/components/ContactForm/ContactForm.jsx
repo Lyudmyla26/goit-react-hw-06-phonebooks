@@ -102,6 +102,11 @@ export const ContactForm = () => {
             name="number"
             placeholder="+38-050-123-45-67"
           />
+          <FieldFormik
+            type="tel"
+            name="email"
+            placeholder="+38-050-123-45-67"
+          />
           <ErrorMessage name="number" component="span" />
         </FormField>
         <StyledButton type="submit">
